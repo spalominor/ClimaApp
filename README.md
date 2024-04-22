@@ -21,3 +21,7 @@ ClimaApp es una aplicación básica de clima que te permite consultar la tempera
 - limpiar_datos.py: En este archivo se limpian los datos del [archivo original](https://github.com/spalominor/ClimaApp/blob/main/temp_mensual_espacial_p.csv), se eliminan columnas innecesarias, datos nulos o duplicados, y se convierten a un dataframe de temperaturas que se guarda como un [archivo nuevo](https://github.com/spalominor/ClimaApp/blob/main/temperatura.csv)
 - indexar.py: Este archivo crea el índice espacial a partir de la columna "geom" del [archivo nuevo](https://github.com/spalominor/ClimaApp/blob/main/temperatura.csv)
 - vista.py: Este archivo define la vista de la aplicación. Importa el índice espacial y el dataframe de las temperaturas. Obtiene la geocodificación y llama a los respectivos métodos para mostrar la respuesta
+
+## Advertencia
+
+- Esta aplicación provee datos aproximados de la temperatura promedio del mes de abril del año 2023 alrededor del mundo.
