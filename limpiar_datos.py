@@ -15,7 +15,7 @@ def mover_punto(geom):
     Returns:
         string: Geometría con punto decimal movido a la izquierda
         Ejemplo:
-            POINT (-37037.90 40416.775)
+            POINT (-3.703790 4.0416775)
     """
     longitud, latitud = geom.strip('POINT (').strip(')').split(' ')
     nueva_longitud = float(longitud) * 0.00001
